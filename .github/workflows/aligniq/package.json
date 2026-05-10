@@ -1,9 +1,0 @@
-{
-  "name": "aligniq",
-  "private": true,
-  "version": "1.0.0",
-  "description": "AlignIQ resume tailoring website",
-  "scripts": {
-    "start": "node server.js"
-  }
-}
