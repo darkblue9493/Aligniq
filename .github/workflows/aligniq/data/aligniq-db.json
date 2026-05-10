@@ -1,0 +1,85 @@
+{
+  "users": [
+    {
+      "id": "user-56a7c280-8880-448f-9789-25df4e24b8a2",
+      "name": "History User",
+      "email": "history@example.com",
+      "passwordSalt": "5ee551c78853f6e9a41254ba3a1463a9",
+      "passwordHash": "667e2e643a2382cac8b673038e8df721933944b0bd2dc78fbc3db507dc8c79ba",
+      "createdAt": "2026-05-10T04:50:08.731Z"
+    },
+    {
+      "id": "user-2dc36d21-8754-4e18-8476-09651584525d",
+      "name": "Test User",
+      "email": "test@example.com",
+      "passwordSalt": "e76462b82c3a6cdf43a021730e782816",
+      "passwordHash": "01e82f06f5aa77671e47fe156a99b520ed077aea0e801c9179c56bcef56727f5",
+      "createdAt": "2026-05-10T04:49:47.690Z"
+    }
+  ],
+  "sessions": [
+    {
+      "token": "bad9a6dfd1a06d307aa5a6116a5431a0673f361e8d4ada3e",
+      "userId": "user-56a7c280-8880-448f-9789-25df4e24b8a2",
+      "expiresAt": "2026-06-09T04:50:08.731Z"
+    },
+    {
+      "token": "a11559f517d1ba68b2977e52533d95ceb65965560e2fdb31",
+      "userId": "user-2dc36d21-8754-4e18-8476-09651584525d",
+      "expiresAt": "2026-06-09T04:49:47.691Z"
+    }
+  ],
+  "histories": [
+    {
+      "id": "history-c49d0168-a3a7-40c4-9bd5-84663aa4ee51",
+      "userId": "user-56a7c280-8880-448f-9789-25df4e24b8a2",
+      "title": "Designer resume",
+      "jobTitle": "Designer",
+      "tone": "ats",
+      "score": 50,
+      "matchedKeywords": [
+        "branding",
+        "campaigns"
+      ],
+      "missingKeywords": [
+        "need",
+        "analytics"
+      ],
+      "resumeText": "Worked on branding and campaigns.",
+      "jobDescription": "Need branding, campaigns, analytics.",
+      "versions": [
+        {
+          "label": "ATS",
+          "title": "ATS-friendly rewrite",
+          "summary": "ATS rewrite for Designer.",
+          "content": "Worked on branding and campaigns.\n\nFocus: ATS-friendly rewrite\nTone: Match role requirements, echo priority keywords, and stay ATS friendly.\n\nProfessional Summary\n- ATS-friendly rewrite for Designer with experience in need, branding, campaigns, analytics.\n- Match role requirements, echo priority keywords, and stay ATS friendly.\n\nSelected Experience\n- Built work around need and delivered stronger results.\n- Built work around branding and delivered stronger results.\n- Built work around campaigns and delivered stronger results.\n- Built work around analytics and delivered stronger results.\n\nCore Keywords\nneed, branding, campaigns, analytics"
+        },
+        {
+          "label": "Recruiter",
+          "title": "Recruiter-friendly summary",
+          "summary": "ATS rewrite for Designer.",
+          "content": "Worked on branding and campaigns.\n\nFocus: Recruiter-friendly summary\nTone: Match role requirements, echo priority keywords, and stay ATS friendly.\n\nProfessional Summary\n- Recruiter-friendly summary for Designer with experience in branding, campaigns, analytics.\n- Match role requirements, echo priority keywords, and stay ATS friendly.\n\nSelected Experience\n- Built work around branding and delivered stronger results.\n- Built work around campaigns and delivered stronger results.\n- Built work around analytics and delivered stronger results.\n\nCore Keywords\nbranding, campaigns, analytics"
+        },
+        {
+          "label": "Impact",
+          "title": "Impact-focused edit",
+          "summary": "ATS rewrite for Designer.",
+          "content": "Worked on branding and campaigns.\n\nFocus: Impact-focused edit\nTone: Match role requirements, echo priority keywords, and stay ATS friendly.\n\nProfessional Summary\n- Impact-focused edit for Designer with experience in campaigns, analytics.\n- Match role requirements, echo priority keywords, and stay ATS friendly.\n\nSelected Experience\n- Built work around campaigns and delivered stronger results.\n- Built work around analytics and delivered stronger results.\n\nCore Keywords\ncampaigns, analytics"
+        },
+        {
+          "label": "Lead",
+          "title": "Leadership-oriented version",
+          "summary": "ATS rewrite for Designer.",
+          "content": "Worked on branding and campaigns.\n\nFocus: Leadership-oriented version\nTone: Match role requirements, echo priority keywords, and stay ATS friendly.\n\nProfessional Summary\n- Leadership-oriented version for Designer with experience in analytics.\n- Match role requirements, echo priority keywords, and stay ATS friendly.\n\nSelected Experience\n- Built work around analytics and delivered stronger results.\n\nCore Keywords\nanalytics"
+        },
+        {
+          "label": "Hybrid",
+          "title": "Concise hybrid version",
+          "summary": "ATS rewrite for Designer.",
+          "content": "Worked on branding and campaigns.\n\nFocus: Concise hybrid version\nTone: Match role requirements, echo priority keywords, and stay ATS friendly.\n\nProfessional Summary\n- Concise hybrid version for Designer with experience in relevant skills.\n- Match role requirements, echo priority keywords, and stay ATS friendly.\n\nSelected Experience\n\nCore Keywords\ncommunication, analysis, execution"
+        }
+      ],
+      "createdAt": "2026-05-10T04:50:08.759Z"
+    }
+  ]
+}
